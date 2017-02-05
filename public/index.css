@@ -1,0 +1,108 @@
+body{
+	background-image: url("VAN_fond.jpg");
+}
+
+img{
+	margin-left: 1100px;
+	margin-bottom: 0px;
+}
+
+button{
+	margin-left: 600px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 20px;
+}
+
+.model{
+
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.price-by-day{
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.price-by-km{
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.begin{
+	margin-right: 110px;
+    margin-left: 110px;
+}
+
+.end{
+	margin-right: 138px;
+    margin-left: 138px;
+}
+
+.distance{
+	margin-right: 0px;
+    margin-left: 110px;
+}
+
+.option{
+	margin-top: 10px;
+	margin-right: 0px;
+    margin-left: 50px;
+}
+
+#car{
+	margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 90%;
+    border: 1px solid lightblue;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#rental{
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    width: 90%;
+    border: 1px solid lightblue;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#option{
+	margin-left: 460px;
+	margin-top: 10px;
+	width: 400px;
+	font-family: "comic sans ms";
+}
+
+#date{
+	margin-left: 110px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+	font-family: "comic sans ms";
+}
+
+.actor{
+	font-weight: bold;
+	font-family: "comic sans ms";
+	margin-left: 464px;
+	margin-right: 525px;
+	text-align: center;
+	width: 400px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
