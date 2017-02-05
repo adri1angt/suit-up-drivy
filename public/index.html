@@ -2,18 +2,25 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Drivy</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <img src="logo-drivy.png" style="width:200px;height:100px;">
     <div id="car">
+      <pre id="date"><strong>Car Model                                              Price by Day                                           Price by km</strong></pre>
       <input class="model" type="text" placeholder="Car model"/>
       <input class="price-by-day" type="number" placeholder="Price by day"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
     </div>
     <div id="rental">
+      <pre id="date"><strong>Start date                                             End Date                                               Distance in km</strong></pre>
       <input class="begin" type="date" placeholder="Rental begin date"/>
       <input class="end" type="date" placeholder="Rental end date"/>
       <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <p id="option"> 
+        <input class="option" type="checkbox" placeholder="Deductible option"/>
+        <stong>Deductible Option</stong>
+      </p> 
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
